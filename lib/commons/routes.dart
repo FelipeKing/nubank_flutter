@@ -1,6 +1,8 @@
-class NubankRoutes{
+import 'package:flutter/material.dart';
+
+abstract class NubankRoutes {
   static const String loginPage = "/loginPage";
-  static const String splashScreen = "/splashScreenPage";
+  static const String splashScreenPage = "/splashScreenPage";
   static const String homePage = "/homePage";
-  static const String welcome = "/welcome";
+  static const String welcomePage = "/welcomePage";
 }
